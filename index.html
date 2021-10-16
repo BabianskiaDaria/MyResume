@@ -1,21 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My resume</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Hello world</h1>
 
-    <h2>Hello world</h2>
+    <!-- Main block resume -->
+    <div class="main-container">
+        <!-- Main text block -->
+        <div class="main-content">
+            <!-- Blok about me -->
+            <div class="about-me">
+                <h2 class="about-me-profession">Project Manager / Front-end developer</h2>
+                <h1>Дарья Бабянская</h1>
 
-    <h3>Hello world</h3>
+                <p> Я IT Project Manager. На работе я узнаю очень многое из мира разработки 🌐
+                <br>
+                Решила пройти марафон HTML & CSS, чтобы расширить свои навыки в программировании и изучить изнутри базовые понятия. Это
+                поможет мне общаться с командой на одном языке и лучше их понимать.
+                <br>
+                Оказалось, программирование это классно 👏
+                Возможно, в будущем стану front-end разработчиком 👩‍💻 </p>
+            </div>
+            <!-- Block my projects -->
+            <div class="my-projects">
+                <h3>Мои проекты</h3>  
+                <ol>
+                    <li class="project-item"> <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a> 
+                        <span>.........</span>
+                        <span>[ HTML5, CSS3 ]</span>
+                    </li>
+                    <li> <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a> 
+                        <span>..........</span>
+                        <span>[ JavaScript ]</span>
+                    </li>
+                    <li> <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a> 
+                        <span>..............</span>
+                        <span>[ React.js, Node.js ]</span>
+                    </li>
+                </ol>  
+            </div>
+            <!-- Block work expierence -->
+            <div class="work-expierence">
+                <h3>Опыт работы</h3>
+                
+                <!-- Company 3 -->
+                <div>
+                    <h4>IT Project Manager</h4>
+                    <p>Май 2021 - настоящее время | Харьков</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua.</li> 
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> 
+                        <li>Risus commodo viverra maecenas.</li> 
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li> 
+                    </ul>
 
-    <h4>Hello world</h4>
 
-    <h5>Hello world</h5>
+                </div>
+                
+                <!-- Company 2 -->
+                <div>
+                    <h4>Marketing Project Manager</h4>
+                    <p>Март 2020 - Май 2021 | Харьков</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna
+                            aliqua.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                    </ul>
+                
+                
+                </div>
 
+                <!-- Company 1 -->
+                <div>
+                    <h4>Торговый представитель</h4>
+                    <p>Июнь 2019 - Апрель 2020 | Харьков</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna
+                            aliqua.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                    </ul>
+                
+                
+                </div> 
+            </div>
+            <!-- Block education-->
+            <div class="education">
+                <h3>Образование</h3>
+                <h4>Национальный аэрокосмический университет им. Н. Е. Жуковского "ХАИ"</h4>
+                <h5>Экономика предприятия</h5>
+                <p>Сентябрь 2015 - декабрь 2020</p>
+                <p>Степень: магистр</p>
+            </div>
+        </div>
+        
+        <!--Block sidebar-->
+        <aside class="sidebar-section">
+            <img img width="300" src="img/me.jpg" alt="мое фото">
+
+            <!-- Block contacts-->
+            <div class="contacts-section">
+                <h3 class="sidebar-titles">Контакты</h3>
+                <div>
+                    <span class="contacts-section-type">Тел.:</span>
+                    <a class="contacts-section-link" href="tel:+380990427057">+38 (099) 042 7057</a>
+                </div>
+                <div>
+                    <span class="contacts-section-type">Email:</span>
+                    <a class="contacts-section-link" href="mailto:d.babianskia@gmail.com">d.babianskia@gmail.com</a> 
+                </div>
+            </div>
+            <!--Block Hard Skills -->
+            <div class="hard-skill-section">
+                <h3 class="sidebar-titles">Hard Skills</h3>
+                <ul class="skills-list">
+                    <li class="skills-item"> <span class="skills-item-text">HTML</span> </li>
+                    <li class="skills-item"> <span class="skills-item-text">CSS3</span> </li>
+                    <li class="skills-item"> <span class="skills-item-text">GIT</span> </li>
+                    <li class="skills-item"> <span class="skills-item-text">WebPack</span> </li>
+                    <li class="skills-item"> <span class="skills-item-text">JavaScript</span> </li>
+                    <li class="skills-item"> <span class="skills-item-text">React.js</span> </li>
+                    <li class="skills-item"> <span class="skills-item-text">Node.js</span> </li>
+                </ul>
+            </div>
+            <!--Block Soft Skills-->
+            <div class="soft-skill-section">
+                <h3 class="sidebar-titles">Soft Skills</h3>
+                <ul class="skills-list">
+                    <li class="skills-item"> <span class="skills-item-text">Scrum</li>
+                    <li class="skills-item"> <span class="skills-item-text">Agile</li>
+                    <li class="skills-item"> <span class="skills-item-text">GTD</li>
+                    <li class="skills-item"> <span class="skills-item-text">Teamwork</li>
+                </ul>
+            </div>
+        </aside>
+    </div>
 </body>
 </html>
